@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HCI midterm | TravelPH</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Travel <span style="color: blue;">P</span><span style="color: red;">H</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">LOCATIONS</a></li>
+        <li><a href="#package">ABOUT</a></li>
+        <li><a href="#reviews">REVIEWS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn" onclick="window.location.href='signin.html'">Sign In</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>YOUR NEXT JOURNEY AWAITS</p>
+          <h1>Discover the <span style="color: white;">Philippines!</span></h1>
+          <div class="header__btns">
+            <button class="btn" onclick="window.location.href='booking.html'">Book A Trip Now</button>
+          </div>          
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Top Philippine Destinations</h2>
+      <p class="section__description">
+        Explore the Most Loved Spots Across the Philippines
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Paradise on Earth</h4>
+              <p>El Nido Palawan</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>A Tropical Haven</h4>
+              <p>Boracay, Philippines</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Stairway to the Sky</h4>
+              <p>Banaue Rice Terraces, Philippines</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="assets/showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>DISCOVER THE PHILIPPINES LIKE NEVER BEFORE</h4>
+        <p>
+          Embark on a journey like no other with our site, your ultimate gateway to exploring the Philippines. Whether you're drawn to the vibrant energy of bustling cities, the serene beauty of pristine beaches, or the rich history of ancient landmarks, we make every adventure possible. Discover expertly curated destinations and personalized itineraries tailored to your unique preferences. Uncover hidden gems, immerse yourself in local culture, and create unforgettable memories that will last a lifetime.
+        </p>
+        <p>
+          With our site as your ultimate travel guide, exploring the wonders of the Philippines has never been easier. Our insider tips and local insights provide you with the knowledge to navigate new destinations confidently. From planning your adventure to returning home, we’re committed to making your experience seamless and unforgettable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="reviews">
+      <h2 class="section__header">Loved By Over Thousand Travelers</h2>
+      <p class="section__description">
+        Discover the stories of wanderlust and cherished memories through the
+        eyes of our valued clients.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  My visit to Palawan was absolutely magical. The crystal-clear waters and stunning lagoons took my breath away. Every moment felt like a dream, from island hopping to exploring hidden caves. Booking through this site made everything so easy, with helpful recommendations that made sure I didn't miss out on any must-see spots. It was a hassle-free experience that made my vacation truly unforgettable.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>Pedro Pascual</h4>
+                  <h5>Travel Blogger</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Planning my trip to Cebu was a breeze with the help of this site. I was able to find the best places to visit, from white sandy beaches to vibrant city attractions. The recommendations for local dining were incredible, introducing me to authentic Filipino cuisine that I wouldn't have found on my own. The clear itineraries and travel tips ensured my journey was smooth, relaxing, and filled with memorable experiences.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Anabel Ramos</h4>
+                  <h5>Adventure Enthusiast</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Exploring Baguio through this site was one of the best travel decisions I've made. The detailed suggestions for sightseeing, shopping, and dining made my trip so much more enjoyable. I loved wandering through the colorful markets, enjoying the cool mountain breeze, and indulging in delicious local treats. Every recommendation felt thoughtfully chosen, making my vacation stress-free and full of amazing moments.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Gloria Castro</h4>
+                  <h5>Cultural Historian</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  My trip across the Philippines was an incredible experience from start to finish. From the breathtaking beaches of Boracay to the rich cultural heritage of Vigan, every destination was unforgettable. This site provided fantastic recommendations that helped me explore like a local. Whether it was finding hidden waterfalls, trying authentic dishes, or discovering historic landmarks, every moment was made special. Planning was effortless, and I felt confident knowing I had all the best tips at my fingertips.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>Dabed Cueto</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Travel <span style="color: blue;">P</span><span style="color: red;">H</span></a>
+          </div>
+          <p>
+            Discover the beauty of the Philippines with ease and excitement through our comprehensive travel platform. Your adventure starts here, where seamless planning meets unforgettable local experiences.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Explore</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +63 9123456789
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> TravelPH@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Batangas City, Philippines
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 TravelPH. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <div class="modal" id="signin-modal">
+  <div class="modal-content">
+    <span class="close-btn" id="close-modal">&times;</span>
+    <h2>Sign In</h2>
+    <form id="signin-form">
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+  </div>
+</div>
+  </body>
+</html>
