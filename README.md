@@ -18,13 +18,12 @@ Technologies Used
 
 Frontend: HTML, CSS, JavaScript
 
-Libraries/Tools (if any): [You can specify any libraries used, e.g., Leaflet.js for maps, Bootstrap for styling]
 
 Installation / Setup
 
 Clone the repository:
 
-git clone https://github.com/YourUsername/Travel-PH.git
+git clone https://github.com/AngheloDeArroz/Travel-PH.git
 
 
 Navigate to the project folder:
